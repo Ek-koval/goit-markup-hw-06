@@ -403,13 +403,13 @@ p {
 
 /* HERO */
 
-.intro-section {
+.hero-section {
     min-width: 320px;
     background-color: #2e2f42;
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/backgroung/Dark-bg.jpg);
+        url(../images/hero/Dark-bg-mob-1x.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -420,15 +420,15 @@ p {
 }
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
-    .intro-section {
+    .hero-section {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/backgroung/Dark-bg\ @1x.jpg);
+            url(../images/hero/people-office.jpg);
     }
 }
 
-.intro-title {
+.hero-title {
     max-width: 216px;
     display: block;
     text-align: center;
@@ -471,23 +471,23 @@ p {
         max-width: 768px;
     }
 
-    .intro-section {
+    .hero-section {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/backgroung/Dark-bg\ @1x.jpg);
+            url(../images/hero/Dark-bg-mob-1x.jpg);
     }
 
     @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-        .intro-section {
+        .hero-section {
             background-image: linear-gradient(to bottom,
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/backgroung/background@2x.jpg);
+                url(../images/background@2x.jpg);
         }
     }
 
-    .intro-title {
+    .hero-title {
         max-width: 496px;
         font-size: 56px;
         line-height: 1.07;
@@ -501,24 +501,24 @@ p {
         padding: 0 15px;
     }
 
-    .intro-section {
+    .hero-section {
         max-width: 1440px;
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/backgroung/Dark-bg.jpg);
+            url(../images/hero/Dark-bg-pl-1x.png);
     }
 
     @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
-        .intro-section {
+        .hero-section {
             background-image: linear-gradient(to bottom,
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/backgroung/background@2x.jpg);
+                url(../images/hero/Dark-bg-plan.png);
         }
     }
 
-    .intro-title {
+    .hero-title {
         font-size: 56px;
         line-height: 1.07;
         margin-bottom: 48px;
