@@ -59,15 +59,34 @@ p {
 }
 
 .container {
-    width: 320px;
-    margin: 0 auto;
-    padding: 0 16px;
+    width: 100%;
+    padding: 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width:480px) {
+    .container {
+        width: 480px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 1158px) {
+    .container {
+        width: 1158px;
+    }
 }
 
 @media screen and (min-width:768px) {
-    .container {
+    /*.container {
         width: 768px;
-    }
+    } */
 
     .footer-form-field {
         display: flex;
@@ -404,7 +423,7 @@ p {
 /* HERO */
 
 .hero-section {
-    min-width: 320px;
+    min-width: 1600px;
     background-color: #2e2f42;
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
@@ -428,8 +447,11 @@ p {
     }
 }
 
+ .hero-container {
+     text-align: center;
+ }
+
 .hero-title {
-    max-width: 216px;
     display: block;
     text-align: center;
     font-weight: 700;
@@ -438,9 +460,7 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 72px;
+    margin: 0 0 72px 0;
 }
 
 .order-service-button {
@@ -488,7 +508,6 @@ p {
     }
 
     .hero-title {
-        max-width: 496px;
         font-size: 56px;
         line-height: 1.07;
         margin-bottom: 36px;
@@ -528,7 +547,7 @@ p {
 /* FEATURES */
 
 .features-section {
-    padding: 96px 16px;
+    padding: 96px 0;
 }
 
 .container {
@@ -637,7 +656,7 @@ p {
 .team-section {
     background-color: #F4F4FD;
     width: auto;
-    padding: 96px 16px;
+    padding: 96px 0px;
     text-align: center;
 }
 
@@ -768,7 +787,7 @@ p {
 }
 
 .portfolio-section {
-    padding: 96px 16px;
+    padding: 96px 0;
 }
 
 .portfolio-title {
@@ -947,10 +966,7 @@ p {
 .footer-container {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-    padding: 96px 16px;
-
 }
 
 .footer-logo-text {
